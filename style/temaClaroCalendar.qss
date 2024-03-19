@@ -1,0 +1,22 @@
+#Calendar{
+font-family: "Poppins";
+letter-spacing: 1px; }
+
+
+QCalendarWidget QToolButton::hover{
+background-color : #7E4EAA;
+}
+
+QCalendarWidget QToolButton::pressed{
+background-color : #330046;
+}
+
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+background-color: #51007A;
+color: white;
+}
+
+QCalendarWidget QAbstractItemView:enabled {
+ selection-background-color:#51007A;
+ selection-color: rgb(255, 255, 255);
+ }

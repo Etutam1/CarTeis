@@ -1,0 +1,260 @@
+@font-face {
+font-family: "Poppins";
+src: url(resources.qrc/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+QWidget{font-family: "Poppins";
+color:rgb(149,149,149);
+letter-spacing: 1px;
+
+}
+#MainWindow{
+background-color:rgb(86,86,86);
+}
+
+QLabel {
+color: white;
+}
+
+QMenuBar{
+background-color: rgb(76,76,76);
+color: white;
+}
+
+QMenuBar QWidget {
+background-color: rgb(86,86,86);
+color: white;
+}
+
+QMenu::item:selected {
+background-color:rgb(86,86,86);
+color: white;
+}
+
+QToolBar{
+border: 1px solid rgb(76,76,76);
+background-color:rgb(86,86,86);
+}
+
+QToolBar::separator {
+               background-color:rgb(96,96,96);
+                width: 1px;
+                margin: 2.4px;
+
+}
+
+QToolBar QToolButton:hover {
+background-color:rgb(86,86,86);
+}
+
+#lblCodeBD, #lblCodeBD_2, #lblCodFac{
+color: rgb(76,76,76);
+}
+
+QStatusBar QLabel{
+color: white;
+background-color:rgb(86,86,86);
+}
+
+#panelDrivers, #tab_2 , #panelPrincipal{
+background-color: rgb(86,86,86);
+border: none;
+}
+
+QTabBar::tab{
+background-color: rgb(86,86,86);
+border: 0.5px solid rgb(86,86,86);
+padding: 2px;
+}
+
+
+QTabBar::tab:selected{
+background-color: rgb(100,100,100);
+border: 0.5px solid rgb(86,86,86);
+}
+
+QTabBar::tab:hover{
+background-color: rgb(76,76,76);
+border: 0.5px solid rgb(86,86,86);
+}
+
+QTabWidget::pane {
+border: 1px solid rgb(86,86,86);
+}
+
+#frameForm, #frameForm_2{
+background-color: rgb(86,86,86);
+border-radius:20px;
+}
+
+#frameDetalles QLabel, #frameDir QLabel, #frameInfo QLabel, #frameDetalles_2 QLabel, #frameDir_2 QLabel, #frameInfo_2 QLabel, #frameFormFac QLabel, #frameFormViaje QLabel, #frameTotal QLabel{
+background-color: rgb(96,96,96);
+}
+
+#frameDetalles, #frameDir, #frameInfo, #frameDetalles_2, #frameDir_2, #frameInfo_2, #frameFormFac, #frameFormViaje{
+background-color:rgb(96,96,96);
+border-radius:20px;
+}
+
+#frameTabla , #frameTabla_2{
+margin-bottom:10px;
+background-color:rgb(96,96,96);
+border-radius:20px;
+}
+
+#frameTablaFac, #frameTablaViaje{
+background-color:rgb(96,96,96);
+border-radius:20px;
+}
+
+#frameRbt QWidget ,#frameRbt, #frameRbt_2 QWidget ,#frameRbt_2, #frameRbt_3 QWidget ,#frameRbt_3{
+background-color: rgb(96,96,96);
+}
+
+#frameChk QWidget ,#frameChk, #frameChk_2 QWidget ,#frameChk_2{
+background-color: rgb(96,96,96);
+}
+
+#frameBtn, #frameBtn_2, #frameTotal, #chkFiltrar{
+background-color: rgb(96,96,96);
+}
+
+QTableWidget{
+background-color: rgb(96,96,96);
+}
+
+QLineEdit {
+background-color: gray;
+border-radius: 15px;
+padding-left: 10px;
+padding-right: 10px;
+color: rgb(76,76,76);
+}
+
+QLineEdit:hover , QComboBox:hover{
+background-color: rgb(86,86,86);
+color:white;
+}
+
+QComboBox QAbstractItemView::item:hover, QComboBox QAbstractItemView::item:selected {
+background-color: rgb(86, 86, 86);
+color: white;
+}
+
+QComboBox QWidget{
+background-color: rgb(96,96,96);  color: white;}
+
+
+QLineEdit:focus {
+background-color: #555;
+color:white;
+}
+
+QLineEdit::selection {
+background-color: #4d90fe;
+}
+
+QComboBox {
+border-radius: 15px;
+background-color: gray;
+padding-left: 10px;
+padding-right: 10px;
+color: rgb(76,76,76);
+}
+
+QComboBox:hover {
+background-color: #555;
+}
+
+QPushButton{
+padding:5px;
+color:#FFFFFF;
+background-color: #51007A;
+border:none;
+border-radius: 10px;
+}
+
+QPushButton:hover {
+background-color: #7E4EAA;
+}
+
+QPushButton:pressed {
+background-color: #330046;
+}
+
+#btnFlecha:hover, #btnFlecha_2:hover{
+color:#7E4EAA;
+}
+
+#btnFlecha:pressed, #btnFlecha_2:pressed{
+color: #330046;
+}
+
+QSlider::groove:horizontal {
+height: 10px;
+border-radius: 5px;
+background: rgb(96,96,96);
+}
+
+QSlider::handle:horizontal {
+width: 10px;
+height: 30px;
+border-radius: 5px;
+background: #51007A;
+}
+
+QSlider::handle:horizontal:hover {
+background: #7E1E9C;
+}
+
+QSlider::handle:horizontal:pressed {
+background: #3C004F;
+}
+
+#btnFlecha, #btnFlecha_2{
+color:#51007A;
+background-color: rgb(96,96,96);
+}
+
+QMenu::item:selected {
+background-color: rgb(76,76,76);
+color: white;
+}
+
+QMenuBar::item:selected {
+background-color: rgb(96,96,96);
+color: white;
+}
+
+#frameSalir, #frameAbout, #frameRbtInformes{
+border-radius: 50%;
+background-color:rgb(96,96,96);
+}
+
+#dlgAbout QLabel{
+background-color:rgb(96,96,96);
+}
+
+#dlgSalir QLabel{
+background-color:rgb(96,96,96);
+}
+
+#dlgSalir, #dlgAbout, #dialogReports{
+background-color:rgb(86,86,86);
+}
+
+
+
+#frameFiltrar, #frameFiltrar QRadioButton{
+  background-color:rgb(96,96,96);
+ }
+
+#dialogReports QRadioButton{
+ color: white;
+ background-color: rgb(96,96,96);
+}
+
+
+#tabDrivers QHeaderView, #tabDrivers_2 QHeaderView, #tabFac QHeaderView, #tabViajes QHeaderView{
+background-color: rgb(96,96,96)
+}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html lang="es" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>eventos module &#8212; documentación de PereiraGutierrez - 0.0.1</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=12dfc556" />
+    <script src="../_static/documentation_options.js?v=6fcc102b"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/translations.js?v=efdbd0b9"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-eventos">
+<span id="eventos-module"></span><h1>eventos module<a class="headerlink" href="#module-eventos" title="Link to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="eventos.Eventos">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">eventos.</span></span><span class="sig-name descname"><span class="pre">Eventos</span></span><a class="reference internal" href="../_modules/eventos.html#Eventos"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Clase que define diversos eventos y funcionalidades de la interfaz de usuario.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.abrirCalendar">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">abrirCalendar</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.abrirCalendar"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.abrirCalendar" title="Link to this definition">¶</a></dt>
+<dd><p>Abre el calendario en la interfaz.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>self</strong> – Instancia de la clase.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.abrirDlgAcercaDe">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">abrirDlgAcercaDe</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.abrirDlgAcercaDe"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.abrirDlgAcercaDe" title="Link to this definition">¶</a></dt>
+<dd><p>Abre el diálogo «Acerca de» en la interfaz.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.abrirDlgSalir">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">abrirDlgSalir</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.abrirDlgSalir"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.abrirDlgSalir" title="Link to this definition">¶</a></dt>
+<dd><p>Abre el diálogo para salir de la aplicación.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.calcularDistancia">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">calcularDistancia</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">loc1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">loc2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.calcularDistancia"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.calcularDistancia" title="Link to this definition">¶</a></dt>
+<dd><p>Calcula la distancia entre dos ubicaciones geográficas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>loc1</strong> – Primera ubicación.</p></li>
+<li><p><strong>loc2</strong> – Segunda ubicación.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>La distancia entre las dos ubicaciones en kilómetros.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.cambiarEstiloTabla">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">cambiarEstiloTabla</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tabla</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.cambiarEstiloTabla"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.cambiarEstiloTabla" title="Link to this definition">¶</a></dt>
+<dd><p>Cambia el estilo de una tabla según el modo de visualización.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>tabla</strong> – La tabla cuyo estilo se cambiará.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.cargarDiaglosReport">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">cargarDiaglosReport</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.cargarDiaglosReport"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.cargarDiaglosReport" title="Link to this definition">¶</a></dt>
+<dd><p>Carga los diálogos de reporte en la interfaz.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.cargarSlider">
+<span class="sig-name descname"><span class="pre">cargarSlider</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.cargarSlider"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.cargarSlider" title="Link to this definition">¶</a></dt>
+<dd><p>Carga el slider en la barra de herramientas de la interfaz.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.cargarStatusBar">
+<span class="sig-name descname"><span class="pre">cargarStatusBar</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.cargarStatusBar"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.cargarStatusBar" title="Link to this definition">¶</a></dt>
+<dd><p>Carga la barra de estado con la fecha y la versión de la aplicación.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>self</strong> – Instancia de la clase.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.clearRowBackground">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">clearRowBackground</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tabla</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">row</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.clearRowBackground"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.clearRowBackground" title="Link to this definition">¶</a></dt>
+<dd><p>Limpia el fondo de una fila específica en una tabla.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tabla</strong> – La tabla en la que se limpiará el fondo.</p></li>
+<li><p><strong>row</strong> – La fila para la que se limpiará el fondo.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.comprobarFilas">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">comprobarFilas</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.comprobarFilas"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.comprobarFilas" title="Link to this definition">¶</a></dt>
+<dd><p>Comprueba el estado de las filas en una tabla para habilitar o deshabilitar ciertos botones.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.comprobarMovil">
+<span class="sig-name descname"><span class="pre">comprobarMovil</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.comprobarMovil"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.comprobarMovil" title="Link to this definition">¶</a></dt>
+<dd><p>Comprueba el formato del número de móvil del conductor.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.comprobarMovilCli">
+<span class="sig-name descname"><span class="pre">comprobarMovilCli</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.comprobarMovilCli"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.comprobarMovilCli" title="Link to this definition">¶</a></dt>
+<dd><p>Comprueba el formato del número de móvil del cliente.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.comprobarSalario">
+<span class="sig-name descname"><span class="pre">comprobarSalario</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.comprobarSalario"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.comprobarSalario" title="Link to this definition">¶</a></dt>
+<dd><p>Comprueba el formato del salario ingresado.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.crearbackup">
+<span class="sig-name descname"><span class="pre">crearbackup</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.crearbackup"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.crearbackup" title="Link to this definition">¶</a></dt>
+<dd><p>Crea una copia de seguridad de la base de datos.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="eventos.Eventos.current_hovered_row">
+<span class="sig-name descname"><span class="pre">current_hovered_row</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">-1</span></em><a class="headerlink" href="#eventos.Eventos.current_hovered_row" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.exportardatosxls">
+<span class="sig-name descname"><span class="pre">exportardatosxls</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.exportardatosxls"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.exportardatosxls" title="Link to this definition">¶</a></dt>
+<dd><p>Exporta los datos de los conductores a un archivo XLS.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.exportarsxlsCli">
+<span class="sig-name descname"><span class="pre">exportarsxlsCli</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.exportarsxlsCli"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.exportarsxlsCli" title="Link to this definition">¶</a></dt>
+<dd><p>Exporta los datos de los clientes a un archivo XLS.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.formatCajaTexto">
+<span class="sig-name descname"><span class="pre">formatCajaTexto</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.formatCajaTexto"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.formatCajaTexto" title="Link to this definition">¶</a></dt>
+<dd><p>Formatea el texto de las cajas de texto en la interfaz.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.importardatosxls">
+<span class="sig-name descname"><span class="pre">importardatosxls</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.importardatosxls"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.importardatosxls" title="Link to this definition">¶</a></dt>
+<dd><p>Importa datos de conductores desde un archivo XLS.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.importardatosxlsCli">
+<span class="sig-name descname"><span class="pre">importardatosxlsCli</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.importardatosxlsCli"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.importardatosxlsCli" title="Link to this definition">¶</a></dt>
+<dd><p>Importa datos de clientes desde un archivo XLS.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.ocultarFiltro">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ocultarFiltro</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.ocultarFiltro"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.ocultarFiltro" title="Link to this definition">¶</a></dt>
+<dd><p>Oculta o muestra el filtro de búsqueda en la interfaz.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.onCellEntered">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">onCellEntered</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tabla</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">row</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.onCellEntered"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.onCellEntered" title="Link to this definition">¶</a></dt>
+<dd><p>Maneja el evento de entrada a una celda en una tabla.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tabla</strong> – La tabla en la que se ha ingresado una celda.</p></li>
+<li><p><strong>row</strong> – La fila en la que se ha ingresado la celda.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.resizeFrame">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resizeFrame</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">frame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">button</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.resizeFrame"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.resizeFrame" title="Link to this definition">¶</a></dt>
+<dd><p>Ajusta el tamaño del marco según el botón de expansión.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>frame</strong> – El marco a ajustar.</p></li>
+<li><p><strong>button</strong> – El botón de expansión asociado.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.resizeTab">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resizeTab</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tabla</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.resizeTab"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.resizeTab" title="Link to this definition">¶</a></dt>
+<dd><p>Ajusta el tamaño de las columnas de la tabla de conductores.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>tabla</strong> – La tabla de conductores.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.resizeTabFac">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resizeTabFac</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tabla</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.resizeTabFac"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.resizeTabFac" title="Link to this definition">¶</a></dt>
+<dd><p>Ajusta el tamaño de las columnas de la tabla de facturas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>tabla</strong> – La tabla de facturas.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.restaurarbackup">
+<span class="sig-name descname"><span class="pre">restaurarbackup</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.restaurarbackup"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.restaurarbackup" title="Link to this definition">¶</a></dt>
+<dd><p>Restaura una copia de seguridad de la base de datos.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.selEstado">
+<span class="sig-name descname"><span class="pre">selEstado</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.selEstado"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.selEstado" title="Link to this definition">¶</a></dt>
+<dd><p>Selecciona el estado de los conductores según la opción elegida en la interfaz.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.selEstadoCli">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">selEstadoCli</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.selEstadoCli"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.selEstadoCli" title="Link to this definition">¶</a></dt>
+<dd><p>Selecciona el estado de los clientes según la opción elegida en la interfaz.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.selEstadoTarifa">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">selEstadoTarifa</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.selEstadoTarifa"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.selEstadoTarifa" title="Link to this definition">¶</a></dt>
+<dd><p>Selecciona el estado de la tarifa según la opción elegida en la interfaz.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.setRowBackground">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">setRowBackground</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tabla</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">row</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">color</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.setRowBackground"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.setRowBackground" title="Link to this definition">¶</a></dt>
+<dd><p>Establece el fondo de una fila específica en una tabla.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tabla</strong> – La tabla en la que se establecerá el fondo.</p></li>
+<li><p><strong>row</strong> – La fila para la que se establecerá el fondo.</p></li>
+<li><p><strong>color</strong> – El color del fondo.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.ventanaAviso">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ventanaAviso</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">aviso</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">icono</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.ventanaAviso"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.ventanaAviso" title="Link to this definition">¶</a></dt>
+<dd><p>Muestra una ventana de aviso con un mensaje y un icono especificados.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>aviso</strong> – Mensaje a mostrar en la ventana de aviso.</p></li>
+<li><p><strong>icono</strong> – Icono a mostrar en la ventana de aviso.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eventos.Eventos.ventanaConfirmacion">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ventanaConfirmacion</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">aviso</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">icono</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/eventos.html#Eventos.ventanaConfirmacion"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#eventos.Eventos.ventanaConfirmacion" title="Link to this definition">¶</a></dt>
+<dd><p>Muestra una ventana de confirmación con un mensaje y un icono especificados.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>aviso</strong> – Mensaje a mostrar en la ventana de confirmación.</p></li>
+<li><p><strong>icono</strong> – Icono a mostrar en la ventana de confirmación.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>El resultado de la ejecución de la ventana de confirmación.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">PereiraGutierrez</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navegación</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, a22lucasmpg.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../_sources/src/eventos.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

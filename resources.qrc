@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="fonts">
+    <file>fonts/Oxygen/Oxygen-Bold.ttf</file>
+    <file>fonts/Poppins/Poppins-Bold.ttf</file>
+  </qresource>
+  <qresource prefix="img">
+    <file>img/reload-outlined_.png</file>
+    <file>img/bin.png</file>
+    <file>img/edit_.png</file>
+    <file>img/informe - copia.png</file>
+    <file>img/informe.png</file>
+    <file>img/volante.png</file>
+    <file>img/actualizar.png</file>
+    <file>img/backupDB.svg</file>
+    <file>img/calendar.png</file>
+    <file>img/cerrarSesion.png</file>
+    <file>img/chevron-derecho.png</file>
+    <file>img/chevron-izquierdo.png</file>
+    <file>img/coche2.png</file>
+    <file>img/drivers.png</file>
+    <file>img/invalido.png</file>
+    <file>img/luna.png</file>
+    <file>img/lupa.png</file>
+    <file>img/restoreDB.jpeg</file>
+    <file>img/restoreDB.png</file>
+    <file>img/sol.png</file>
+    <file>img/valido.png</file>
+  </qresource>
+</RCC>
