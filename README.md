@@ -1,11 +1,11 @@
 # CarTeis
 Application for uber drivers, clients and travels info management. Includes reports, import/export csv and database backup.
 
-para crear requisitos:
+Create requirements:
 
 	pip freeze > requirements.txt
 
 
-para instalar requisitos:
+Install requirements:
 
 	pip install -r requirements.txt
