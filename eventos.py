@@ -433,6 +433,7 @@ class Eventos():
 
 
         except Exception as error:
+            print('error en copia de seguridad', error)
             eventos.Eventos.ventanaAviso('Error en copia de seguridad', QtWidgets.QMessageBox.Icon.Warning)
 
     def restaurarbackup(self):
